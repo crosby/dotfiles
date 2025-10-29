@@ -1,0 +1,29 @@
+[includeIf "hasconfig:remote.*.url:git@github.com:*"]
+  path = ~/.gitconfig.github
+
+[url "ssh://git@github.com/"]
+  insteadOf = https://github.com/
+
+[protocol]
+  version = 2
+
+[transfer]
+  fsckobjects = true
+
+[fetch]
+  fsckobjects = true
+
+[receive]
+  fsckObjects = true
+
+[safe]
+  directory = *
+
+[feature]
+  manyFiles = true
+
+[gc]
+  auto = 256
+
+[maintenance]
+  auto = true

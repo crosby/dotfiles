@@ -1,0 +1,66 @@
+[user]
+  name = Richard Crosby
+  email = richard@richardcrosby.uk
+  signingkey = ~/.ssh/id_ed25519_sk.pub
+
+[init]
+  defaultBranch = main
+
+[gpg]
+  format = ssh
+  program = /opt/homebrew/bin/ssh-keygen
+
+[commit]
+  gpgsign = true
+  template = ~/.gitmessage
+
+[core]
+  editor = "zed --wait"
+  pager = delta
+  whitespace = blank-at-eol,blank-at-eof,space-before-tab
+  autocrlf = input
+  excludesfile = ~/.gitignore_global
+  attributesfile = ~/.gitattributes_global
+
+[push]
+  default = current
+  autoSetupRemote = true
+
+[fetch]
+  prune = true
+
+[merge]
+  ff = only
+  conflictStyle = zdiff3
+
+[rebase]
+  autoStash = true
+
+[rerere]
+  enabled = true
+
+[delta]
+  navigate = true
+  line-numbers = true
+
+[interactive]
+  diffFilter = delta --color-only
+
+[alias]
+  st = status -sb
+  co = checkout
+  nb = checkout -b
+  br = branch -vv
+  ci = commit
+  ca = commit -a -S
+  amend = commit --amend -S --no-edit
+  lg = log --graph --decorate --date=relative --pretty=format:'%C(auto)%h%d %s %C(blue)%cr %C(green)%an'
+  fp = fetch --prune --tags
+  ps = push -u origin HEAD
+  undo = reset --soft HEAD~1
+  fix = commit --fixup
+  squash = rebase -i --autosquash
+  rt = rebase --rebase-merges
+
+[include]
+  path = ~/.gitconfig.secure

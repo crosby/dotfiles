@@ -1,0 +1,10 @@
+brew "wget"
+brew "stow"
+brew "git"
+brew "openssh"
+
+# For Yubikey management
+brew "ykman"
+brew "gnupg"
+brew "pinentry-mac"
+brew "libfido2"
