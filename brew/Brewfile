@@ -8,3 +8,12 @@ brew "ykman"
 brew "gnupg"
 brew "pinentry-mac"
 brew "libfido2"
+
+# Zoxide for better jumping
+brew "zoxide"
+
+# Better fuzzy file picking
+brew "fzf"
+
+# Better LS
+brew "eza"
