@@ -17,3 +17,25 @@ brew "fzf"
 
 # Better LS
 brew "eza"
+
+# Recetangle window management
+cask "rectangle"
+
+# Development
+cask "zed"
+cask "warp"
+brew "deno"
+brew "nvm"
+brew "awscli"
+brew "rustup"
+brew "trivy"
+brew "just"
+
+# Work
+cask "slack"
+cask "zoom"
+cask "linear-linear"
+
+# Security
+cask "pareto-security"
+brew "wireguard-tools"

@@ -1,6 +1,3 @@
-# fast errors
-case $- in *i*) ;; *) set -euo pipefail ;; esac
-
 # history
 HISTFILE="$HOME/.zsh_history"
 HISTSIZE=200000
@@ -11,7 +8,7 @@ setopt INC_APPEND_HISTORY SHARE_HISTORY HIST_IGNORE_ALL_DUPS HIST_REDUCE_BLANKS 
 export PATH="/opt/homebrew/opt/openssh/bin:/opt/homebrew/bin:$PATH"
 
 # aliases
-source "aliases.zsh"
+source "/Users/richard/aliases.zsh"
 
 # editor
 export EDITOR="zed --wait"
