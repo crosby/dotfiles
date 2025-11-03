@@ -30,6 +30,7 @@ brew "awscli"
 brew "rustup"
 brew "trivy"
 brew "just"
+brew "pre-commit"
 
 # Work
 cask "slack"

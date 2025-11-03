@@ -21,5 +21,10 @@ export PAGER=less
 eval "$(zoxide init zsh)"
 eval "$(fzf --zsh)"
 
+# nvm
+export NVM_DIR="$HOME/.nvm"
+[ -s "$HOMEBREW_PREFIX/opt/nvm/nvm.sh" ] && \. "$HOMEBREW_PREFIX/opt/nvm/nvm.sh" # This loads nvm
+[ -s "$HOMEBREW_PREFIX/opt/nvm/etc/bash_completion.d/nvm" ] && \. "$HOMEBREW_PREFIX/opt/nvm/etc/bash_completion.d/nvm" # This loads nvm bash_completion
+
 # prompt
 PROMPT='%F{cyan}%n@%m%f %F{yellow}%~%f $(git rev-parse --abbrev-ref HEAD 2>/dev/null) %# '
