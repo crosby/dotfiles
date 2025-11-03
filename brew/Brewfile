@@ -31,6 +31,8 @@ brew "rustup"
 brew "trivy"
 brew "just"
 brew "pre-commit"
+brew "sops"
+brew "direnv"
 
 # Work
 cask "slack"

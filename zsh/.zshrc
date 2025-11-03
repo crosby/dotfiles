@@ -17,6 +17,9 @@ export VISUAL="zed --wait"
 # pager
 export PAGER=less
 
+# SSH
+export SSH_AUTH_SOCK="$(launchctl getenv SSH_AUTH_SOCK)"
+
 # tooling
 eval "$(zoxide init zsh)"
 eval "$(fzf --zsh)"
@@ -28,3 +31,6 @@ export NVM_DIR="$HOME/.nvm"
 
 # prompt
 PROMPT='%F{cyan}%n@%m%f %F{yellow}%~%f $(git rev-parse --abbrev-ref HEAD 2>/dev/null) %# '
+
+# env vars
+source ~/.doppler.env
