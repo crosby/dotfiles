@@ -1,44 +1,45 @@
-brew "wget"
-brew "stow"
-brew "git"
-brew "openssh"
+# Core
+brew "wget"             # Fetch via HTTP
+brew "stow"             # Dotfile management
+brew "git"              # Git version control
+brew "openssh"          # Better SSH than built-in MacOS version
 
 # For Yubikey management
-brew "ykman"
-brew "gnupg"
-brew "pinentry-mac"
-brew "libfido2"
+brew "ykman"            # Yubikey manager
+brew "gnupg"            # GPG Encryption/Signing
+brew "pinentry-mac"     # Modals for entering pins for Yubikey
+brew "libfido2"         # FIDO2 support
 
-# Zoxide for better jumping
-brew "zoxide"
-
-# Better fuzzy file picking
-brew "fzf"
-
-# Better LS
-brew "eza"
+# Terminal enhancements
+brew "zoxide"           # Jumping between folders based on history
+brew "fzf"              # Fuzzy file picking
+brew "eza"              # Alternative to ls/ll
+brew "bat"              # Alternative to cat with syntax highlighting
+brew "jq"               # Better JSON handling
 
 # Recetangle window management
 cask "rectangle"
 
 # Development
-cask "zed"
-cask "warp"
-brew "deno"
-brew "nvm"
-brew "awscli"
-brew "rustup"
-brew "trivy"
-brew "just"
-brew "pre-commit"
-brew "sops"
-brew "direnv"
+cask "zed"              # Editor
+cask "warp"             # Terminal
+brew "deno"             # Deno programming language
+brew "nvm"              # NodeJS programming language
+brew "awscli"           # AWS CLI
+brew "rustup"           # Rust programming language
+brew "trivy"            # Security scanning
+brew "just"             # Alternative to make
+brew "pre-commit"       # Run hooks before commit
+brew "sops"             # File encryption
+brew "direnv"           # Environment variables per dir
+brew "git-delta"        # Better pager for Git
+brew "czg"
 
-# Work
-cask "slack"
-cask "zoom"
-cask "linear-linear"
+# Work tools
+cask "slack"            # Team chat
+cask "zoom"             # Team video conferencing
+cask "linear-linear"    # Team project management
 
 # Security
-cask "pareto-security"
-brew "wireguard-tools"
+cask "pareto-security"  # Security enforcement for MacOS
+brew "wireguard-tools"  # VPN for connecting to remote networks
