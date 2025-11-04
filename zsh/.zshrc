@@ -32,6 +32,12 @@ export NVM_DIR="$HOME/.nvm"
 # prompt
 PROMPT='%F{cyan}%n@%m%f %F{yellow}%~%f $(git rev-parse --abbrev-ref HEAD 2>/dev/null) %# '
 
+# theme
+source ~/theme.zsh
+
 # exports
 source ~/exports.zsh
 source ~/secrets.zsh
+
+# ZSH highlighting
+source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
