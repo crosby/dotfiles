@@ -43,6 +43,7 @@ brew "colima"           # Alternative to docker desktop
 cask "google-chrome"    # Chrome browser for extension devleopment
 brew "foundry"          # Ethereum application development
 brew "gh"               # GitHub CLI
+cask "font-fira-code"   # Fira Programming Font
 
 # Personal
 cask "whatsapp"
