@@ -18,13 +18,14 @@ brew "bat"              # Alternative to cat with syntax highlighting
 brew "jq"               # Better JSON handling
 
 # Recetangle window management
-cask "rectangle"
+cask "rectangle"        # Tiling window management
 
 # Development
 cask "zed"              # Editor
 cask "warp"             # Terminal
 brew "deno"             # Deno programming language
 brew "nvm"              # NodeJS programming language
+brew "pnpm"             # NodeJS package manager
 brew "awscli"           # AWS CLI
 brew "rustup"           # Rust programming language
 brew "trivy"            # Security scanning
@@ -35,12 +36,31 @@ brew "direnv"           # Environment variables per dir
 brew "git-delta"        # Better pager for Git
 brew "czg"              # Commit management
 cask "codex"            # OpenAI Codex agentic development
+cask "chatgpt"          # OpenAI ChatGPT
+cask "postman"          # Postman API development
+brew "docker"           # Docker container runtime
+brew "colima"           # Alternative to docker desktop
+cask "google-chrome"    # Chrome browser for extension devleopment
+brew "foundry"          # Ethereum application development
+brew "gh"               # GitHub CLI
+
+# Personal
+cask "whatsapp"
+cask "spotify"
+
+# Tools
+cask "balenaetcher"
 
 # Work tools
 cask "slack"            # Team chat
 cask "zoom"             # Team video conferencing
 cask "linear-linear"    # Team project management
+cask "notion"           # Team documentation/Wikis
+cask "1password"        # Team passwords
+cask "1password-cli"    # Team passwords CLI
 
 # Security
 cask "pareto-security"  # Security enforcement for MacOS
 brew "wireguard-tools"  # VPN for connecting to remote networks
+cask "proton-pass"      # Password management
+cask "tailscale-app"    # Tailscale Wireguard network
