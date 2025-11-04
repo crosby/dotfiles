@@ -7,8 +7,11 @@ setopt INC_APPEND_HISTORY SHARE_HISTORY HIST_IGNORE_ALL_DUPS HIST_REDUCE_BLANKS 
 # paths
 export PATH="/opt/homebrew/opt/openssh/bin:/opt/homebrew/bin:$PATH"
 
+# completions
+source $(brew --prefix)/share/zsh-autocomplete/zsh-autocomplete.plugin.zsh
+
 # aliases
-source ~/aliases.zsh
+source ~/.zsh/aliases.zsh
 
 # editor
 export EDITOR="zed --wait"
@@ -33,11 +36,11 @@ export NVM_DIR="$HOME/.nvm"
 PROMPT='%F{cyan}%n@%m%f %F{yellow}%~%f $(git rev-parse --abbrev-ref HEAD 2>/dev/null) %# '
 
 # theme
-source ~/theme.zsh
+source ~/.zsh/theme.zsh
 
 # exports
-source ~/exports.zsh
-source ~/secrets.zsh
+source ~/.zsh/exports.zsh
+source ~/.zsh/secrets.zsh
 
 # ZSH highlighting
 source $(brew --prefix)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

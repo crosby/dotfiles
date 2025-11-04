@@ -16,7 +16,8 @@ brew "fzf"                          # Fuzzy file picking
 brew "eza"                          # Alternative to ls/ll
 brew "bat"                          # Alternative to cat with syntax highlighting
 brew "jq"                           # Better JSON handling
-brew "zsh-syntax-highlighting"      # ZSH highlighting
+brew "zsh-syntax-highlighting"      # Zsh highlighting
+brew "zsh-autocomplete"             # Zsh autocomplete
 
 # Recetangle window management
 cask "rectangle"                    # Tiling window management
@@ -48,6 +49,7 @@ cask "font-fira-code"               # Fira Programming Font
 # Personal
 cask "whatsapp"                     # Messaging
 cask "spotify"                      # Music
+cask "pronotes"                     # Better Notes (Markdown, Slash commands etc)
 
 # Tools
 cask "balenaetcher"                 # Disk image writing
