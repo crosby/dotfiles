@@ -8,7 +8,7 @@ setopt INC_APPEND_HISTORY SHARE_HISTORY HIST_IGNORE_ALL_DUPS HIST_REDUCE_BLANKS 
 export PATH="/opt/homebrew/opt/openssh/bin:/opt/homebrew/bin:$PATH"
 
 # aliases
-source "/Users/richard/aliases.zsh"
+source ~/aliases.zsh
 
 # editor
 export EDITOR="zed --wait"
@@ -33,4 +33,5 @@ export NVM_DIR="$HOME/.nvm"
 PROMPT='%F{cyan}%n@%m%f %F{yellow}%~%f $(git rev-parse --abbrev-ref HEAD 2>/dev/null) %# '
 
 # exports
-source "/Users/richard/exports.zsh"
+source ~/exports.zsh
+source ~/secrets.zsh

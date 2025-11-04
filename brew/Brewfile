@@ -33,7 +33,8 @@ brew "pre-commit"       # Run hooks before commit
 brew "sops"             # File encryption
 brew "direnv"           # Environment variables per dir
 brew "git-delta"        # Better pager for Git
-brew "czg"
+brew "czg"              # Commit management
+cask "codex"            # OpenAI Codex agentic development
 
 # Work tools
 cask "slack"            # Team chat

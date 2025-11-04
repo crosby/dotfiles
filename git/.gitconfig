@@ -53,7 +53,7 @@
   nb = checkout -b
   br = branch -vv
   ci = commit
-  ca = commit -a -S
+  cm = czg ai
   amend = commit --amend -S --no-edit
   lg = log --graph --decorate --date=relative --pretty=format:'%C(auto)%h%d %s %C(blue)%cr %C(green)%an'
   fp = fetch --prune --tags

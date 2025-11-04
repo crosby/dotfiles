@@ -13,3 +13,6 @@ alias decrypt-zed-config='sops --decrypt --input-type json --output-type json ~/
 
 # Brew
 alias bundle="brew bundle --file=~/Brewfile"
+
+# Secrets
+alias secrets="zed --wait ~/secrets.zsh"
