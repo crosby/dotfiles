@@ -24,6 +24,7 @@ cask "rectangle"                    # Tiling window management
 
 # Development
 cask "zed"                          # Editor
+cask "cursor"                       # Alternative Editor
 brew "deno"                         # Deno programming language
 brew "nvm"                          # NodeJS programming language
 brew "pnpm"                         # NodeJS package manager
@@ -45,6 +46,7 @@ cask "google-chrome"                # Chrome browser for extension devleopment
 brew "foundry"                      # Ethereum application development
 brew "gh"                           # GitHub CLI
 cask "font-fira-code"               # Fira Programming Font
+brew "flyctl"                       # Fly.io CLI
 
 # Personal
 cask "whatsapp"                     # Messaging
