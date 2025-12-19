@@ -4,8 +4,11 @@ HISTSIZE=200000
 SAVEHIST=$HISTSIZE
 setopt INC_APPEND_HISTORY SHARE_HISTORY HIST_IGNORE_ALL_DUPS HIST_REDUCE_BLANKS PROMPT_SUBST
 
-# paths
-export PATH="/opt/homebrew/opt/openssh/bin:/opt/homebrew/bin:$PATH"
+# Add binary paths
+export PATH="/opt/homebrew/opt/openssh/bin:$PATH" # OpenSSH
+export PATH="/opt/homebrew/bin:$PATH" # Homebrew
+export PATH="/Users/richard/.cargo/bin:$PATH" # Cargo
+export PATH="/Users/richard/Library/pnpm:$PATH" # pnpm
 
 # completions
 source $(brew --prefix)/share/zsh-autocomplete/zsh-autocomplete.plugin.zsh

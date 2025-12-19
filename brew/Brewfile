@@ -19,8 +19,9 @@ brew "jq"                           # Better JSON handling
 brew "zsh-syntax-highlighting"      # Zsh highlighting
 brew "zsh-autocomplete"             # Zsh autocomplete
 
-# Recetangle window management
-cask "rectangle"                    # Tiling window management
+# MacOS utilities
+cask "raycast"                      # Raycast productivity suite
+cask "rectangle"                    # Rectangle window management
 
 # Development
 cask "zed"                          # Editor
@@ -38,7 +39,6 @@ brew "direnv"                       # Environment variables per dir
 brew "git-delta"                    # Better pager for Git
 brew "czg"                          # Commit management
 cask "codex"                        # OpenAI Codex agentic development
-cask "chatgpt"                      # OpenAI ChatGPT
 cask "postman"                      # Postman API development
 brew "docker"                       # Docker container runtime
 brew "colima"                       # Alternative to docker desktop
